@@ -4,9 +4,9 @@
  * selection_sort - This sorts an array of integers in ascending
  * order using the Selection sort algorithm
  *
- * @array: input array of integers
- * @size: size of the array
- * Return: no return
+ * @array: the input in the array of integers
+ * @size: total size of the array
+ * Return: 0 should return
  */
 void selection_sort(int *array, size_t size)
 {
