@@ -9,11 +9,11 @@
  */
 void quick_sort(int *array, size_t size)
 {
-	_qsort(array, 0, size - 1, size);
+	_wesort(array, 0, size - 1, size);
 }
 /**
- * _qsort - This is the auxiliar function for the the quick_sort function
- * @a: Total input arrray
+ * _wesort - This is the auxiliar function for the the quick_sort function
+ * @m: Total input arrray
  * @low: The index for the first elements
  * @high: This is index for the last elements
  * @size: size of the arrays
