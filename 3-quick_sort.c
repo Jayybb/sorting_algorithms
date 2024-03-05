@@ -30,7 +30,7 @@ void _wesort(int *m, int low, int high, int size)
 		j = low;
 		for (c = low; c < high; c++)
 		{
-			if (m[c] < a[q])
+			if (m[c] < m[q])
 			{
 				if (c != j)
 				{
