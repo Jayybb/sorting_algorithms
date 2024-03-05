@@ -15,17 +15,17 @@ void shell_sort(int *array, size_t size)
 		n = (n * 3) + 1;
 
 	while ((n = (n - 1) / 3) > 0)
-		_ssort(array, size, n);
+		_xsort(array, size, n);
 }
 /**
- * _ssort - auxiliar function for
+ * _xsort - auxiliar function for
  * shell_sort function
  * @b: the total input arrray
  * @size: the size of the array
  * @n: intervale
  * Return: no return
  */
-void _ssort(int *b, int size, int n)
+void _xsort(int *b, int size, int n)
 {
 	int cal, m, p;
 
